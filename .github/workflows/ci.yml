@@ -20,5 +20,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/gutenberg-api:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/gutenberg:latest
           file: Dockerfile
